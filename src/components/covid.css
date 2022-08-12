@@ -1,0 +1,128 @@
+
+/*  Basic Styling */
+.body {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+.div_first{
+    display: flex;
+    justify-content: center;
+}
+.div_second{
+    display: flex;
+    justify-content: center;
+}
+h1, h2{
+    text-align: center;
+}
+ p {
+    color: black;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: rgb(58, 58, 138);
+    margin-top: 30px;
+}
+
+.card_main:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+
+.card_main1{
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: rgb(80, 150, 80);
+    margin-top: 30px;
+}
+
+.card_main1:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+.card_main2{
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: rgb(151, 151, 13);
+    margin-top: 30px;
+}
+.card_main2:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+.card_main3{
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: rgb(212, 142, 13);
+    margin-top: 30px;
+}
+.card_main3:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+.card_main4{
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: rgb(98, 98, 233);
+    margin-top: 30px;
+}
+.card_main4:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+.card_main5{
+    height: 250px;
+    width: 450px;
+    margin: 25px;
+    background-color: yellowgreen;
+    margin-top: 30px;
+}
+.card_main5:hover {
+    
+    background-color: rgb(192, 157, 157);
+    transform: translateY(-20px) ;
+}
+.card_name{
+    font-size: 30px;
+    font-weight: bold;
+    
+    text-align: center;
+    
+}
+
+.card_name span {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
